@@ -1,0 +1,37 @@
+{
+	"Pretty var dump": {
+		"scope": "php",
+		"prefix": "vd",
+		"body": [
+			"echo '<pre>' . var_export($$CLIPBOARD, true) . '</pre>';"
+		],
+		"description": "var dump pretty"
+	},
+	"Pretty var dump and exit": {
+		"scope": "php",
+		"prefix": "vde",
+		"body": [
+			"echo '<pre>' . var_export($$CLIPBOARD, true) . '</pre>';",
+			"exit;"
+		],
+		"description": "var dump pretty and exit"
+	},
+	"Codeigniter Last Query": {
+		"scope": "php",
+		"prefix": "lt",
+		"body": [
+			"echo \\$this->db->last_query();"
+		],
+		"description": "var dump pretty"
+	},
+	"Codeigniter Last Query and exit": {
+		"scope": "php",
+		"prefix": "lte",
+		"body": [
+			"echo \\$this->db->last_query();",
+			"exit;"
+		],
+		"description": "var dump pretty and exit"
+	}
+
+}
